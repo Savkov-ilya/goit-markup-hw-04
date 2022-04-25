@@ -89,11 +89,11 @@ img {
   margin-left: 50px;
 }
 .page-header {
-  
   background-color: var(--primery-white-color);
 }
-.page-portfolio{
-border-bottom: 1px solid #ECECEC;}
+.page-portfolio {
+  border-bottom: 1px solid #ececec;
+}
 .page-header .logo {
   display: block;
   padding-top: 24px;
@@ -124,7 +124,7 @@ border-bottom: 1px solid #ECECEC;}
   color: var(--accent-color);
   list-style: none;
 }
-/* Ефективное решение */
+
 .effective-solutions {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -135,12 +135,20 @@ border-bottom: 1px solid #ECECEC;}
   line-height: 1.36;
   text-transform: lowercase;
   background-color: var(--primery-section-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bacgroundimg.jpg);
+  max-width: 1600px;
+  height: 600px;
+  background-repeat: no-repeat;
 }
 .effective-solutions .effective-title {
   margin-top: 0px;
   margin-bottom: 30px;
   text-decoration: none;
- 
 
   text-transform: uppercase;
   font-size: 44px;
@@ -215,7 +223,6 @@ border-bottom: 1px solid #ECECEC;}
 .photo {
   display: flex;
   padding-left: 0;
-  
 }
 .work {
 }
@@ -340,7 +347,6 @@ border-bottom: 1px solid #ECECEC;}
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-
 .portfolio .portfolio-title {
   text-decoration: none;
   font-size: 18px;
@@ -397,8 +403,4 @@ border-bottom: 1px solid #ECECEC;}
 }
 span {
   color: var(--accent-color);
-}
-
-}
-
 }
