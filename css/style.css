@@ -188,6 +188,28 @@ img {
 .peculiarities {
   padding-bottom: 0;
 }
+.peculiarities-list .item::before {
+  display: block;
+  margin-bottom: 30px;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--promary-button-bacgriund-color);
+}
+.item:nth-child(1)::before {
+  background-image: url(../images/satellite.svg);
+}
+.item:nth-child(2)::before {
+  background-image: url(../images/clock.svg);
+}
+.item:nth-child(3)::before {
+  background-image: url(../images/diagram.svg);
+}
+.item:nth-child(4)::before {
+  background-image: url(../images/astronaut.svg);
+}
 
 .peculiarities-title {
   margin-top: 0px;
@@ -291,6 +313,20 @@ img {
 .team-wrap {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+/* Постояные клиенты */
+.clients {
+  margin: 0;
+  padding: 0;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background-color: var(--primery-white-color);
+  color: var(--title-text-color);
 }
 
 /* Портфолио навигация */
