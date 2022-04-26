@@ -15,6 +15,7 @@ html {
   --pramary-bacground-color: #e5e5e5;
   --promary-contact-color: #ffffff99;
   --promary-button-bacgriund-color: #f5f4fa;
+  --promary-icon-color: #afb1b8;
 }
 
 /* bady */
@@ -50,6 +51,15 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
+}
+.contacts-icons {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--pramary-text-color);
+}
+.contacts-icons:hover {
+  fill: var(--accent-color);
 }
 .contacts {
   /* padding-top: 32px;
@@ -178,37 +188,17 @@ img {
 }
 
 .peculiarities,
+.regular-customers,
 .work,
 .team,
 .button {
   padding-top: 94px;
   padding-bottom: 94px;
+  border: 1px solid red;
 }
 /* Особености */
 .peculiarities {
   padding-bottom: 0;
-}
-.peculiarities-list .item::before {
-  display: block;
-  margin-bottom: 30px;
-  content: "";
-  height: 120px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--promary-button-bacgriund-color);
-}
-.item:nth-child(1)::before {
-  background-image: url(../images/satellite.svg);
-}
-.item:nth-child(2)::before {
-  background-image: url(../images/clock.svg);
-}
-.item:nth-child(3)::before {
-  background-image: url(../images/diagram.svg);
-}
-.item:nth-child(4)::before {
-  background-image: url(../images/astronaut.svg);
 }
 
 .peculiarities-title {
@@ -328,7 +318,28 @@ img {
   background-color: var(--primery-white-color);
   color: var(--title-text-color);
 }
+.customer-list {
+  margin-top: 50px;
+}
 
+.customer-item {
+  display: inline-flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  text-align: center;
+}
+.customer-item:not(:last-child) {
+  margin-left: 0;
+  margin-right: 25px;
+}
+.customer-icon {
+  fill: var(--promary-icon-color);
+}
+.customer-icon:hover {
+  fill: var(--accent-color);
+}
 /* Портфолио навигация */
 .navigation {
   display: flex;
