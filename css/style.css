@@ -198,7 +198,6 @@ img {
 }
 /* Особености */
 .peculiarities {
-  padding-bottom: 0;
 }
 
 .peculiarities-title {
@@ -230,12 +229,20 @@ img {
 .peculiarities-list :not(:last-child) {
   margin-right: 30px;
 }
+.icon {
+}
+.item .item-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--pramary-bacground-color);
+}
 
 /* чем занимаються */
 .photo {
   display: flex;
   padding-left: 0;
 }
+
 .work {
 }
 .work .work-title {
