@@ -247,125 +247,127 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--promary-button-bacgriund-color);
-  border-radius: 4px;}
-  .icon-satellite::before{
-    background-image: url(../images/satellite.svg);
-  background-size: 70px 70px;
-  }
-  .icon-clock::before{
-    background-image: url(../images/clock.svg);
-    background-size: 70px 70px;
-  }
-  .icon-diagram::before{
-    background-image: url(../images/diagram.svg);
-    background-size: 70px 70px;}
-
-    .icon-astronaut::before{
-    background-image: url(../images/astronaut.svg);
-    background-size: 70px 70px;}
-
-
-  /* чем занимаються */
-  .photo {
-    display: flex;
-    padding-left: 0;
-  }
-
-  .work {
-  }
-  .work .work-title {
-    text-align: center;
-    margin-bottom: 50px;
-    text-decoration: none;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-  }
-  .photo-item {
-    width: calc((100% - 60px) / 3);
-  }
-  .photo-item:not(:last-child) {
-    margin-right: 30px;
-  }
-
-  /* наша команда */
-  .team {
-    background-color: var(--promary-button-bacgriund-color);
-  }
-  .team .team-title {
-    margin-bottom: 50px;
-
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    color: var(--title-text-color);
-    letter-spacing: 0.03em;
-  }
-  .team .team-name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    color: var(--title-text-color);
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-  .team .team-text {
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: center;
-  }
-  .team-list {
-    display: flex;
-  }
-  .team-item {
-    background-color: var(--primery-white-color);
-    width: calc((100%-90) / 4);
-    margin-right: 30px;
-
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-  }
-  .team-item:nth-child(4n) {
-    margin-right: 0px;
-  }
-  .team-wrap {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .social-list {
-    display: flex;
-    justify-content: center;
-  }
-
-  .social-item + .social-item {
-    margin-left: 10px;
-  }
-
-  .social-link {
-    width: 44px;
-    height: 44px;
-    margin-top: 16px;
-    background-color: var(--primery-white-color);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: var(--promary-icon-color);
-  }
-
-  .social-link:hover,
-  .social-link:focus {
-    background-color: var(--accent-color);
-    fill: var(--primery-white-color);
-  }
+  border-radius: 4px;
 }
+.icon-satellite::before {
+  background-image: url(../images/satellite.svg);
+  background-size: 70px 70px;
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+  background-size: 70px 70px;
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+  background-size: 70px 70px;
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+  background-size: 70px 70px;
+}
+
+/* чем занимаються */
+.photo {
+  display: flex;
+  padding-left: 0;
+}
+
+.work {
+}
+.work .work-title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.photo-item {
+  width: calc((100% - 60px) / 3);
+}
+.photo-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* наша команда */
+.team {
+  background-color: var(--promary-button-bacgriund-color);
+}
+.team .team-title {
+  margin-bottom: 50px;
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+.team .team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  color: var(--title-text-color);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team .team-text {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team-list {
+  display: flex;
+}
+.team-item {
+  background-color: var(--primery-white-color);
+  width: calc((100%-90) / 4);
+  margin-right: 30px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-item:nth-child(4n) {
+  margin-right: 0px;
+}
+.team-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-item + .social-item {
+  margin-left: 10px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  background-color: var(--primery-white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--promary-icon-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primery-white-color);
+}
+
 .social-icon {
   fill: var(--promary-icon-color);
 }
@@ -400,7 +402,7 @@ img {
   align-items: center;
   width: 170px;
   height: 92px;
-  fill:var(--promary-icon-color);
+  fill: var(--promary-icon-color);
   background-color: var(--primery-white-color);
   color: var(--promary-icon-color);
   border: 1px solid #afb1b8;
@@ -410,19 +412,18 @@ img {
   margin-left: 0;
   margin-right: 30px;
 }
-.customer-link{
- 
-}
+
 .customer-link:hover,
 .customer-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  fill: var(--accent-color);}
+  fill: var(--accent-color);
+}
 
-  .customer-icon{
-    width: 106px;
+.customer-icon {
+  width: 106px;
   height: 60px;
-  }
+}
 
 /* Портфолио навигация */
 .navigation {
@@ -447,8 +448,8 @@ img {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .navigation-item:not(:last-child) {
@@ -472,8 +473,9 @@ img {
 .portfolio-item:nth-child(3n) {
   margin-right: 0px;
 }
-.portfolio-item:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-wap {
   padding-top: 20px;
