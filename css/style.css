@@ -134,6 +134,10 @@ img {
   color: var(--accent-color);
   list-style: none;
 }
+.page-link:focus {
+  color: var(--accent-color);
+  list-style: none;
+}
 
 .effective-solutions {
   padding-top: 200px;
@@ -154,6 +158,7 @@ img {
   max-width: 1600px;
   height: 600px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .effective-solutions .effective-title {
   margin-top: 0px;
@@ -287,7 +292,7 @@ img {
 
   /* наша команда */
   .team {
-    background-color: var(--pramary-bacground-color);
+    background-color: var(--promary-button-bacgriund-color);
   }
   .team .team-title {
     margin-bottom: 50px;
@@ -404,12 +409,19 @@ img {
   margin-left: 0;
   margin-right: 30px;
 }
-.customer-icon {
-  fill: var(--promary-icon-color);
+.customer-link{
+  fill:var(--promary-icon-color);
 }
-.customer-icon:hover {
-  fill: var(--accent-color);
-}
+.customer-link:hover,
+.customer-link:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);}
+  .customer-icon{
+    width: 106px;
+  height: 60px;
+  }
+
 /* Портфолио навигация */
 .navigation {
   display: flex;
