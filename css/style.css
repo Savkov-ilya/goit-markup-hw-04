@@ -53,13 +53,15 @@ img {
   width: 1200px;
 }
 .contacts-icons {
+  display: inline-block;
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--pramary-text-color);
 }
-.contacts-icons:hover {
+.contacts-icons:hover,
+.contacts-icons:focus {
   fill: var(--accent-color);
+  color: #2196f3;
 }
 .contacts {
   /* padding-top: 32px;
@@ -72,16 +74,17 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--pramary-text-color);
+  fill: var(--pramary-text-color);
 }
 .contacts + .contacts {
   margin-left: 50px;
 }
-.contacts:hover {
-  color: var(--accent-color);
-}
+.contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+
 /* header */
 .main-nav {
   display: flex;
@@ -142,6 +145,8 @@ img {
 .effective-solutions {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
   text-align: center;
   font-size: 44px;
@@ -203,6 +208,7 @@ img {
 }
 /* Особености */
 .peculiarities {
+  padding-bottom: 0;
 }
 
 .peculiarities-title {
